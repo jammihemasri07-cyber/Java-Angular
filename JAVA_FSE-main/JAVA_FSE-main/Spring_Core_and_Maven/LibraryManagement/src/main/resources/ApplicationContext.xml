@@ -1,0 +1,36 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--
+
+    <bean id="bookRepository" class="com.library.repository.BookRepository"/>
+
+    <bean id="bookService" class="com.library.service.BookService">
+        <property name="bookRepository" ref="bookRepository"/>
+    </bean>
+
+    <bean id="loggingAspect" class="com.library.aspect.LoggingAspect"/>
+-->
+    <context:component-scan base-package="com.library"/>
+    <aop:aspectj-autoproxy/>
+
+    <!--By using context:component-scan, we're telling Spring to look through a package for classes
+    that are marked/annotated to be managed, and if it finds one, create and
+    manage that object as a bean.
+
+
+    Spring doesn't manage every class it finds — only ones carrying a stereotype annotation
+    (@Component, @Service, @Repository, or later @Controller
+    -->
+
+
+</beans>
