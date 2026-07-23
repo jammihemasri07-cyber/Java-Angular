@@ -63,11 +63,10 @@ This repository documents my learning journey through the **Cognizant Digital Nu
 
 <div align="center">
 
-### Deepak A
+### HemaSri
 
-**B.Tech – Computer Science & Business Systems**
+**B.E – Computer Science & Engineering**
 
-[GitHub](https://github.com/Deepak-adev) • [LinkedIn](https://www.linkedin.com/in/deepakcsbs)
 
 *"Code. Learn. Build. Improve."*
 
