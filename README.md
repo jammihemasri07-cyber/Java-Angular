@@ -36,7 +36,7 @@ This repository documents my learning journey through the **Cognizant Digital Nu
 ## Repository Structure
 
 ```text
-📦 Deepak-A-8000905-Java-FSE-Cognizant
+📦 Hema-A-8000905-Java-FSE-Cognizant
 │
 ├── 📁 Week-1
 ├── 📁 Week-2
